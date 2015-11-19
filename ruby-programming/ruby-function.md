@@ -1,3 +1,4 @@
+----------2015-11-18--------
 ------------------
 	读取命令行输入
 ------------------
@@ -38,3 +39,32 @@
 	p 1.0 == 1    #=> true
 </code>
 #　从输出结果可知使用　'=='时会对数据进行变换，而eql?方法则不会进行变换，直接比较
+
+
+----------2015-11-19--------
+-----------类和实例-----------
+----------instance_of?-------
+
+<!-- 判断对象是某个类的实例 -->
+<code>
+	arr = []
+	str = "string"
+
+	p arr.instanc_of?(Array) #=> true
+	p str.instance_of?(String) #=> true
+	p str.instance_of?(Object) #=> true
+</code>
+
+-----------is_a?------------
+
+<!-- 判断继承关系 -->
+<code>
+	arr = []
+	str = "string"
+
+	p arr.is_a?(Array) #=> true
+	p str.is_a?(String) #=> true
+	p str.is_a?(Object) #=> true
+</code>
+
+
