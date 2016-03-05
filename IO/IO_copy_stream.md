@@ -12,5 +12,7 @@ src_offset: 指定复制文本的起始位置
 
 IO.copy_stream('./test.txt', './dist.txt', 5, 7)
 
-# test.txt "hello, ruby"
-# result dist.txt ruby
+=begin
+test.txt "hello, ruby"
+result dist.txt ruby
+=end
